@@ -1,0 +1,27 @@
+# Publish the two Orbitalis implementations, not the original reference project.
+/china-3d-map1/
+/.workbuddy/
+/.playwright-cli/
+/output/
+**/node_modules/
+**/_nm_old/
+**/_t100/
+**/_pkgs/
+**/.npm-cache*/
+**/dist/
+**/dist_old*/
+**/dist-ssr/
+**/.tsbuild/
+**/*.tsbuildinfo
+**/.vite/
+**/coverage/
+**/.vscode/
+**/.idea/
+**/*.log
+**/.env
+**/.env.*
+!**/.env.example
+**/*.pem
+**/*.key
+**/.DS_Store
+**/Thumbs.db

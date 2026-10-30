@@ -1,0 +1,29 @@
+name: Bug report
+description: Report a reproducible problem in Vue or React
+title: "[Bug]: "
+body:
+  - type: dropdown
+    id: framework
+    attributes:
+      label: Implementation
+      options: [Vue, React, Both]
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Include a minimal example or public reproduction if possible.
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment and screenshots
+      description: Browser, OS, screen resolution, quality setting, console errors, and screenshots. Remove private data.

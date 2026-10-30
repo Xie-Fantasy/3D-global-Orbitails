@@ -1,0 +1,77 @@
+:root {
+  --globe-bg: #020706;
+  --globe-surface-deep: #071714;
+  --globe-surface-mid: #12352c;
+  --globe-mint: #63f5cb;
+  --globe-cyan: #75fff4;
+  --globe-amber: #f7e27e;
+  --globe-land: #67efaa;
+  --globe-sea: #53d8ff;
+  --globe-halo: #3de8b4;
+  --globe-text: #ecfff8;
+  --globe-text-muted: #8cb5a8;
+  --globe-panel: rgba(2, 12, 10, 0.76);
+  --globe-panel-solid: #061410;
+  --globe-border: rgba(112, 255, 221, 0.48);
+  --globe-border-soft: rgba(112, 255, 221, 0.18);
+  --globe-danger: #ff7a7a;
+  --globe-font:
+    "Microsoft YaHei", "PingFang SC", "Noto Sans CJK SC", system-ui, sans-serif;
+  --globe-mono: "Cascadia Mono", "SFMono-Regular", Consolas, monospace;
+  --globe-fast: 180ms;
+  --globe-normal: 280ms;
+}
+
+.globe-page[data-theme="azure"] {
+  --globe-bg: #020711;
+  --globe-surface-deep: #07152b;
+  --globe-surface-mid: #174b83;
+  --globe-mint: #63d7ff;
+  --globe-cyan: #a7efff;
+  --globe-amber: #ffdf76;
+  --globe-land: #83d5ff;
+  --globe-sea: #48f0ff;
+  --globe-halo: #4c9dff;
+  --globe-text: #eefaff;
+  --globe-text-muted: #91b5cb;
+  --globe-panel: rgba(3, 11, 25, 0.78);
+  --globe-panel-solid: #07162b;
+  --globe-border: rgba(99, 215, 255, 0.48);
+  --globe-border-soft: rgba(99, 215, 255, 0.18);
+}
+
+.globe-page[data-theme="violet"] {
+  --globe-bg: #080511;
+  --globe-surface-deep: #150d27;
+  --globe-surface-mid: #523875;
+  --globe-mint: #c497ff;
+  --globe-cyan: #78e7ff;
+  --globe-amber: #ffd477;
+  --globe-land: #d2a5ff;
+  --globe-sea: #67dcff;
+  --globe-halo: #a86cff;
+  --globe-text: #fbf5ff;
+  --globe-text-muted: #baa5ca;
+  --globe-panel: rgba(15, 8, 27, 0.78);
+  --globe-panel-solid: #180e29;
+  --globe-border: rgba(196, 151, 255, 0.48);
+  --globe-border-soft: rgba(196, 151, 255, 0.18);
+}
+
+.globe-page[data-theme="solar"] {
+  --globe-bg: #0b0702;
+  --globe-surface-deep: #211506;
+  --globe-surface-mid: #765018;
+  --globe-mint: #ffbb55;
+  --globe-cyan: #ffe0a3;
+  --globe-amber: #fff08a;
+  --globe-land: #ffc86b;
+  --globe-sea: #65e3ff;
+  --globe-halo: #ff9f43;
+  --globe-text: #fff8ea;
+  --globe-text-muted: #c7ae87;
+  --globe-panel: rgba(24, 14, 3, 0.78);
+  --globe-panel-solid: #211506;
+  --globe-border: rgba(255, 187, 85, 0.5);
+  --globe-border-soft: rgba(255, 187, 85, 0.18);
+}

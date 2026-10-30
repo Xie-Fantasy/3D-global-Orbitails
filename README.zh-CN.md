@@ -1,6 +1,6 @@
 <div align="center">
 
-# Orbitalis · 瑠璃色の地球
+# 3D-global-Orbitails · 瑠璃色の地球
 
 ### 让数据流动，让全球业务连接可见。
 
@@ -10,7 +10,9 @@ Vue 3 + Vite · React 19 + Vite + TypeScript
 
 [English](README.md) · [快速开始](#快速开始) · [接入指南](docs/INTEGRATION.md) · [参与贡献](CONTRIBUTING.md)
 
-![Orbitalis React 版本实际运行截图：全球节点、航线、地球辉光与粒子光环](docs/images/react-day.png)
+[![3D-global-Orbitails 1080p 功能展示 GIF](docs/media/orbitails-showcase-1080p.gif)](docs/media/orbitails-showcase-1080p60.mp4)
+
+**[观看 / 下载 1080p · 60fps 演示视频](docs/media/orbitails-showcase-1080p60.mp4)** · [录制与剪辑说明](docs/media/README.md)
 
 </div>
 
@@ -18,11 +20,15 @@ Vue 3 + Vite · React 19 + Vite + TypeScript
 
 当你的业务分布在不同城市、国家和地区，一张表能告诉你“在哪里”，一个交互式地球则能让人直观看见“如何连接”。
 
-Orbitalis 将地球贴图、大气辉光、全球节点、飞线、陆海运输路径、标签、柱状图和粒子效果组合成一套可运行、可阅读、可扩展的前端工程。它适合作为数字孪生平台的全球总览、物流调度中心的核心视图，也适合作为指挥中心、数据驾驶舱和展厅大屏的空间展示组件。
+3D-global-Orbitails 将地球贴图、大气辉光、全球节点、飞线、陆海运输路径、标签、柱状图和粒子效果组合成一套可运行、可阅读、可扩展的前端工程。它适合作为数字孪生平台的全球总览、物流调度中心的核心视图，也适合作为指挥中心、数据驾驶舱和展厅大屏的空间展示组件。
 
 **你可以直接选择 Vue 或 React 版本，替换演示数据，接入自己的业务页面。** 当前交付形式是源码组件工程，尚未发布独立 npm 包；实时数据后台、业务告警和建筑级孪生需要由应用接入。
 
 ## 实际运行效果
+
+新增 **35 秒、1920×1080 / 60fps MP4 演示视频**，紧凑展示鼠标锚点缩放、柱状图与路线图层、四套主题、地表模式、粒子密度、中英文切换、节点 / 国家聚焦、拖拽，以及 React / Vue 两个版本。README 中的 **1080p GIF** 将同一演示压缩为约 21 秒、10fps 循环播放；完整画质请观看 MP4。
+
+**原始录屏已保留**：`media/recordings/orbitails-master-take02-1080p60.mkv`，52 秒、1080p / 60fps。原片体积较大，仅在本地保留并排除 Git；精剪 MP4、GIF、字幕与复现步骤位于 [`docs/media/`](docs/media/)。
 
 以下图片均为仓库中程序在浏览器中的真实运行截图，分辨率为 1920 × 1080。
 
@@ -34,7 +40,7 @@ Orbitalis 将地球贴图、大气辉光、全球节点、飞线、陆海运输�
 
 地球影像来源：NASA。图中的指标为合成数据，航线用于视觉演示。
 
-## 为什么选择 Orbitalis
+## 为什么选择 3D-global-Orbitails
 
 - **贴合数字孪生与大屏表达。** 围绕全球节点和业务连接组织视觉层次，用于设施分布、跨区域运营和运输网络展示。
 - **Vue / React 双版本。** Vue 3 单文件组件与 React 19 + TypeScript 分别实现，便于按团队技术栈选择和二次开发。
@@ -73,8 +79,8 @@ Orbitalis 将地球贴图、大气辉光、全球节点、飞线、陆海运输�
 准备 **Node.js 22.12+**、npm 与启用 WebGL 的浏览器。
 
 ```bash
-git clone https://github.com/Xie-Fantasy/Orbitalis.git
-cd Orbitalis
+git clone https://github.com/Xie-Fantasy/3D-global-Orbitails.git
+cd 3D-global-Orbitails
 ```
 
 启动 React 版本：
@@ -133,9 +139,9 @@ React 另提供 `npm run lint`。首次发布核验中，Vue 35 项单元测试�
 
 ## 一起完善它
 
-欢迎通过 [Issues](https://github.com/Xie-Fantasy/Orbitalis/issues) 分享数字孪生、可视化大屏和物流展示中的使用需求。清晰的复现步骤、场景截图、性能记录和接入案例，都能帮助项目变得更好。提交 PR 前请阅读 [贡献指南](CONTRIBUTING.md)。
+欢迎通过 [Issues](https://github.com/Xie-Fantasy/3D-global-Orbitails/issues) 分享数字孪生、可视化大屏和物流展示中的使用需求。清晰的复现步骤、场景截图、性能记录和接入案例，都能帮助项目变得更好。提交 PR 前请阅读 [贡献指南](CONTRIBUTING.md)。
 
-如果 Orbitalis 帮你节省了搭建地球场景的时间，欢迎点一个 Star，让更多做可视化的开发者发现它。
+如果 3D-global-Orbitails 帮你节省了搭建地球场景的时间，欢迎点一个 Star，让更多做可视化的开发者发现它。
 
 ## 许可证与致谢
 

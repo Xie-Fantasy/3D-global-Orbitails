@@ -1,6 +1,6 @@
 <div align="center">
 
-# Orbitalis
+# 3D-global-Orbitails
 
 ### Give your data a world to move through.
 
@@ -14,25 +14,31 @@ Vue 3 + Vite · React 19 + Vite + TypeScript
 [![React 19](https://img.shields.io/badge/React-19-61dafb?logo=react&logoColor=black)](globe-3d-map-react/)
 [![Three.js](https://img.shields.io/badge/Three.js-WebGL-black?logo=threedotjs)](https://threejs.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![CI](https://github.com/Xie-Fantasy/Orbitalis/actions/workflows/ci.yml/badge.svg)](https://github.com/Xie-Fantasy/Orbitalis/actions/workflows/ci.yml)
+[![CI](https://github.com/Xie-Fantasy/3D-global-Orbitails/actions/workflows/ci.yml/badge.svg)](https://github.com/Xie-Fantasy/3D-global-Orbitails/actions/workflows/ci.yml)
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [Quick start](#quick-start) · [Integration guide](docs/INTEGRATION.md) · [Contribute](CONTRIBUTING.md)
 
-![Orbitalis React implementation: Earth imagery, global routes, geographic nodes, atmosphere and particle halo](docs/images/react-day.png)
+[![3D-global-Orbitails animated feature showcase at 1920 x 1080](docs/media/orbitails-showcase-1080p.gif)](docs/media/orbitails-showcase-1080p60.mp4)
+
+**[Watch / download the 1080p · 60 fps demo video](docs/media/orbitails-showcase-1080p60.mp4)** · [Recording details](docs/media/README.md)
 
 </div>
 
 ## From coordinates to a living global scene
 
-A list of locations tells you **where**. Orbitalis helps you show **how they connect**.
+A list of locations tells you **where**. 3D-global-Orbitails helps you show **how they connect**.
 
 Build the global view of a digital twin, a logistics control room, an operations dashboard, or an exhibition display. Put your nodes on the globe, connect them with animated routes, and let viewers explore the network through smooth camera motion and geographic selection.
 
-Orbitalis brings the visual foundation together: Earth imagery, atmospheric glow, flight arcs, land and sea routes, geographic labels, bars, starfields, and a particle halo. Choose the Vue or React implementation to match your application.
+3D-global-Orbitails brings the visual foundation together: Earth imagery, atmospheric glow, flight arcs, land and sea routes, geographic labels, bars, starfields, and a particle halo. Choose the Vue or React implementation to match your application.
 
 **This repository ships two runnable source projects with reusable globe layers and controllers.** It is currently a source-level integration starting point, rather than a published npm package or a complete digital-twin backend. Connect your own business data and application UI.
 
 ## See it in action
+
+The **35-second, 1920 × 1080 / 60 fps MP4** demonstrates pointer-directed zoom, bars and route layers, four themes, Earth surface modes, particle density, English/Chinese switching, node/country focus, dragging, and both React and Vue implementations. The looping **1080p GIF** compresses the same walkthrough to about 21 seconds at 10 fps for README playback. Open the MP4 for the full-quality video.
+
+The original **52-second 1080p/60fps recording** is retained locally in `media/recordings/orbitails-master-take02-1080p60.mkv`. It is excluded from Git to avoid adding large recording masters to every clone. The edited MP4, GIF, captions, and replay/edit instructions are provided in [`docs/media/`](docs/media/).
 
 These are real 1920 × 1080 browser screenshots captured from the included applications, using the bundled demo data.
 
@@ -40,11 +46,11 @@ These are real 1920 × 1080 browser screenshots captured from the included appli
 | :---: | :---: |
 | ![React globe with daytime Earth texture](docs/images/react-day.png) | ![React globe with nighttime Earth texture](docs/images/react-night.png) |
 
-![Vue implementation of Orbitalis with animated geographic connections](docs/images/vue-day.png)
+![Vue implementation of 3D-global-Orbitails with animated geographic connections](docs/images/vue-day.png)
 
 Earth imagery: NASA. Screenshots show illustrative routes and synthetic metrics.
 
-## What makes Orbitalis useful
+## What makes 3D-global-Orbitails useful
 
 - **Two frameworks, a familiar scene architecture.** A Vue 3 implementation and a React 19 implementation with a TypeScript globe core. Pick the stack your team already uses.
 - **Layers that tell a story.** Combine nodes, labels, bars, flight arcs, land routes, and sea routes; toggle layers to emphasize the information that matters.
@@ -82,8 +88,8 @@ Both versions contain the globe, route layers, themes, local Earth textures, nod
 Use **Node.js 22.12+** and npm, plus a browser with WebGL enabled. No API key is required.
 
 ```bash
-git clone https://github.com/Xie-Fantasy/Orbitalis.git
-cd Orbitalis
+git clone https://github.com/Xie-Fantasy/3D-global-Orbitails.git
+cd 3D-global-Orbitails
 ```
 
 ### React + TypeScript
@@ -170,9 +176,9 @@ These are roadmap ideas, not current features. Suggestions and focused pull requ
 
 ## Contribute and share
 
-Building a globe for a digital-twin project, logistics screen, or visualization dashboard? Tell us what you are making in [Issues](https://github.com/Xie-Fantasy/Orbitalis/issues). Screenshots, reproducible bug reports, integration examples, and performance measurements are especially useful.
+Building a globe for a digital-twin project, logistics screen, or visualization dashboard? Tell us what you are making in [Issues](https://github.com/Xie-Fantasy/3D-global-Orbitails/issues). Screenshots, reproducible bug reports, integration examples, and performance measurements are especially useful.
 
-Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request. If Orbitalis saves you time, a star helps other visualization developers discover it.
+Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request. If 3D-global-Orbitails saves you time, a star helps other visualization developers discover it.
 
 ## License and credits
 

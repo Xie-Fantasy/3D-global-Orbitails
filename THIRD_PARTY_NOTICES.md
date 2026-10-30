@@ -21,7 +21,7 @@ Source and usage references:
 - [Fixed-version daytime mirror](https://cdn.jsdelivr.net/npm/three-globe@2.45.2/example/img/earth-blue-marble.jpg)
 - [Fixed-version nighttime mirror](https://cdn.jsdelivr.net/npm/three-globe@2.45.2/example/img/earth-night.jpg)
 
-Retain imagery attribution when redistributing the bundled images or screenshots. The images are not relicensed as original Orbitalis artwork.
+Retain imagery attribution when redistributing the bundled images or screenshots. The images are not relicensed as original 3D-global-Orbitails artwork.
 
 ## Geographic data
 

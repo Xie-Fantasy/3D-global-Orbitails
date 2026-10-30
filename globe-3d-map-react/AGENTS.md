@@ -1,4 +1,4 @@
-# Orbitalis React 复刻规范
+# 3D-global-Orbitails React 复刻规范
 
 本文档是 `globe-3d-map-react` 的唯一开发约束文档，描述如何将相邻的 Vue 版本 `../globe-3d-map-vue` 复刻为 React + Vite + TypeScript 版本。
 
@@ -11,7 +11,7 @@
 项目名称和页面标题固定为：
 
 ```text
-3d-earth-Orbitalis / 瑠璃色の地球
+3D-global-Orbitails / 瑠璃色の地球
 ```
 
 复刻结果必须保留以下能力：
@@ -325,7 +325,7 @@ React 版本要复刻 Vue 版本的布局、颜色、间距、字体和响应式
 - 确认 `react`, `react-dom`, `typescript`, `vite`, `@vitejs/plugin-react` 已可用。
 - 增加并锁定 Three.js、GSAP、d3-geo、topojson-client、world-atlas。
 - 开启严格 TypeScript；移除模板中的 React/Vite 示例内容。
-- 设置页面 title 为 `3d-earth-Orbitalis / 瑠璃色の地球`。
+- 设置页面 title 为 `3D-global-Orbitails / 瑠璃色の地球`。
 
 ### M1：类型、数学和数据服务
 
@@ -383,7 +383,7 @@ React 版本要复刻 Vue 版本的布局、颜色、间距、字体和响应式
 
 ### 功能
 
-- [ ] 页面标题正确：`3d-earth-Orbitalis / 瑠璃色の地球`。
+- [ ] 页面标题正确：`3D-global-Orbitails / 瑠璃色の地球`。
 - [ ] 默认打开页面为英文。
 - [ ] `LANGUAGE` 标签在中英文状态下均保持英文。
 - [ ] 中文状态下所有节点和国家显示中文；英文状态下全部显示英文。

@@ -1,0 +1,35 @@
+{
+  "project": "3D-global-Orbitails",
+  "recordingDate": "2026-10-30",
+  "master": {
+    "path": "media/recordings/orbitails-master-take02-1080p60.mkv",
+    "width": 1920,
+    "height": 1080,
+    "durationSeconds": 52,
+    "frameRate": "60/1",
+    "frameCount": 3120,
+    "preservedLocally": true,
+    "trackedByGit": false
+  },
+  "video": {
+    "path": "docs/media/orbitails-showcase-1080p60.mp4",
+    "codec": "h264",
+    "pixelFormat": "yuv420p",
+    "width": 1920,
+    "height": 1080,
+    "durationSeconds": 35,
+    "frameRate": "60/1",
+    "frameCount": 2100
+  },
+  "gif": {
+    "path": "docs/media/orbitails-showcase-1080p.gif",
+    "width": 1920,
+    "height": 1080,
+    "durationSeconds": 21,
+    "frameRate": "10/1",
+    "frameCount": 210,
+    "loop": "infinite"
+  },
+  "method": "Windows Graphics Capture of a dedicated browser HWND; native 1080p pixels; H.264 CFR 60fps; loading interval removed; bilingual chapter captions added; GIF time compressed to 0.6x.",
+  "framePacing": "The capture maximum and recording timeline are 60Hz/60fps. The application rendered at a variable lower frame rate on this session, so CFR contains held frames. No AI motion interpolation was used. Encoded fps is not an application performance benchmark."
+}

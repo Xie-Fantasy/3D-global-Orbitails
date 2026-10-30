@@ -1,8 +1,8 @@
-# Integrating Orbitalis
+# Integrating 3D-global-Orbitails
 
 [English overview](../README.md) · [中文介绍](../README.zh-CN.md)
 
-Both implementations are standalone Vite applications. Reuse their page components or adapt the globe core inside your application. There is no published `orbitalis` npm dependency at this stage.
+Both implementations are standalone Vite applications. Reuse their page components or adapt the globe core inside your application. There is no published `3d-global-orbitails` npm dependency at this stage.
 
 ## Start with the right files
 

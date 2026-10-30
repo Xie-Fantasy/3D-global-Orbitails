@@ -1,8 +1,9 @@
-# Publish the two Orbitalis implementations, not the original reference project.
+# Publish the two 3D-global-Orbitails implementations, not the original reference project.
 /china-3d-map1/
 /.workbuddy/
 /.playwright-cli/
 /output/
+/media/recordings/
 **/node_modules/
 **/_nm_old/
 **/_t100/

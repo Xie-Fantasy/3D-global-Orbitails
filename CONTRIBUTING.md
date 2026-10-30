@@ -1,4 +1,4 @@
-# Contributing to Orbitalis
+# Contributing to 3D-global-Orbitails
 
 Thanks for helping make global visualization easier to build in Vue and React.
 

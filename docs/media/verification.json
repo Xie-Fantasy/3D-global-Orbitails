@@ -19,7 +19,8 @@
     "height": 1080,
     "durationSeconds": 35,
     "frameRate": "60/1",
-    "frameCount": 2100
+    "frameCount": 2100,
+    "sha256": "98c04f1e5463e779aa238911d31d87c398af5f17b9bf7159381a559871942dce"
   },
   "gif": {
     "path": "docs/media/orbitails-showcase-1080p.gif",
@@ -28,7 +29,9 @@
     "durationSeconds": 21,
     "frameRate": "10/1",
     "frameCount": 210,
-    "loop": "infinite"
+    "loop": "infinite",
+    "optimization": "Gifsicle 1.93 -O3 --lossy=40",
+    "sha256": "36478f2006ffb4df4fe6039ddc9c423351e89a921a1c17209f208e89c95e937d"
   },
   "method": "Windows Graphics Capture of a dedicated browser HWND; native 1080p pixels; H.264 CFR 60fps; loading interval removed; bilingual chapter captions added; GIF time compressed to 0.6x.",
   "framePacing": "The capture maximum and recording timeline are 60Hz/60fps. The application rendered at a variable lower frame rate on this session, so CFR contains held frames. No AI motion interpolation was used. Encoded fps is not an application performance benchmark."

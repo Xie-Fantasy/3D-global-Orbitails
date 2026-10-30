@@ -29,7 +29,7 @@ The transitions and geographic scene are rendered by the real applications. Only
 5. Capture at up to 60 Hz, crop browser chrome, and encode the recording as H.264 with a **60 fps constant-frame-rate timeline**. The original screen-capture source can emit fewer distinct frames when the application renders below 60 fps; repeated frames maintain the 60fps recording timebase. No AI frame interpolation is used. The video's frame rate is not a benchmark of the application's rendering speed.
 6. Run the real UI interactions with Playwright CLI using [`walkthrough.js`](walkthrough.js).
 7. Keep the original MKV. Trim loading/idle time, add [`showcase.ass`](showcase.ass) captions and encode MP4 with H.264 CRF 18, `yuv420p`, and `faststart`.
-8. Generate the full-resolution GIF with a 256-color palette and ordered dithering. GIF frame rate is intentionally lower than the MP4 frame rate.
+8. Generate the full-resolution GIF with a 256-color palette and ordered dithering, then optimize it with Gifsicle `-O3 --lossy=40`. The delivered GIF remains 1920 × 1080 with 210 frames and a 21-second duration. GIF frame rate is intentionally lower than the MP4 frame rate.
 
 OBS was not required. This machine's installed FFmpeg NVENC version required a newer NVIDIA driver, so the delivered recording uses software H.264 encoding without changing any drivers or OBS settings.
 
@@ -42,6 +42,14 @@ pwsh -NoProfile -File docs/media/edit-showcase.ps1
 ```
 
 The edit keeps raw seconds 0–27 and 42–50, removing the version-switch loading interval. The script never removes the input MKV. Export to new filenames, or move old deliverables aside, when producing another revision.
+
+The script produces the full-palette GIF. The published GIF uses this additional size-optimization pass (Gifsicle 1.93):
+
+```powershell
+npx --yes --package gifsicle gifsicle -O3 --lossy=40 docs/media/orbitails-showcase-1080p.gif -o output/playwright/orbitails-optimized-1080p.gif
+```
+
+After reviewing the result, copy the optimized GIF over the delivery GIF; retain the input in `output/playwright/` if desired. This step changes GIF compression, not its resolution or frame count. The source recording and edited MP4 are unaffected.
 
 Inspect the output metadata:
 
